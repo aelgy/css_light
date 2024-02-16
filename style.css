@@ -11,3 +11,36 @@
   background-color: white;
   padding: 5px 20px 5px;
 }
+
+#video {
+  text-align: center;
+}
+
+a:link,
+a:visited {
+  background-color: #ffcbb3;
+  color: grey;
+}
+
+a:hover,
+a:active {
+  color: red;
+}
+
+span {
+  color: grey;
+}
+
+h3 {
+  letter-spacing: 3px;
+}
+
+#related {
+  background-color: #F0F0F0;
+}
+
+li {
+  color: #ff3838;
+  font-weight: bold;
+  line-height: 36px;
+}
