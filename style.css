@@ -40,7 +40,17 @@ h3 {
 }
 
 li {
-  color: #ff3838;
   font-weight: bold;
   line-height: 36px;
+}
+
+#list {
+  color: #ff3838;
+  text-decoration: underline;
+}
+
+#key {
+  background-color: #F0F0F0;
+  padding: 5px;
+  margin: 10px;
 }
