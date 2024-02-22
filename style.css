@@ -13,7 +13,30 @@
 }
 
 #popularVideo {
-  padding-left: 20px;
+  border-top: 2px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#hotNews {
+  border-top: 2px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#hotNewsContent {
+  display: flex;
+}
+
+p.sideNum {
+  flex: none;
+  width: 20%;
+  color: red;
+}
+
+p.sideWord {
+  flex: none;
+  width: 80%
 }
 
 #background {
