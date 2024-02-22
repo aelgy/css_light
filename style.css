@@ -24,19 +24,33 @@
   margin-bottom: 20px;
 }
 
+#hotShare {
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
 #hotNewsContent {
   display: flex;
+  border-top: 1px solid black;
 }
 
 p.sideNum {
   flex: none;
   width: 20%;
   color: red;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  align-items: flex-start;
+  margin-top: 16px;
 }
 
 p.sideWord {
   flex: none;
-  width: 80%
+  width: 80%;
+  text-overflow: clip;
 }
 
 #background {
